@@ -1,0 +1,28 @@
+{
+  "name": "rnw_boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.5.1",
+    "react-art": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-native": "0.56.0",
+    "react-native-web": "^0.9.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.5",
+    "babel-jest": "^23.4.0",
+    "babel-preset-react-native": "^5",
+    "jest": "^23.4.1",
+    "react-test-renderer": "^16.3.1"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "start-ios": "react-native run-ios",
+    "start-web": "react-scripts start",
+    "build": "react-scripts build",
+    "test-web": "react-scripts test --env=jsdom",
+    "eject-web": "react-scripts eject"
+  }
+}

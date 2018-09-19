@@ -1,0 +1,3 @@
+rootProject.name = 'rnwboilerplate'
+
+include ':app'
