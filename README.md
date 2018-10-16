@@ -4,7 +4,7 @@ A small and simple boilerplate for lazy people to create a universal Web/Native 
 
 This boilerplate will save you the hassle of configuring it by your own. Like I said. Lazy bones.
 
-> There's also version with app navigation built in. Check it out here [Link do drugiego boilerplateu]!
+> There's also version with app navigation built in. Check it out here [Check it out here](https://github.com/inspmoore/rnw_boilerplate_nav)!
 
 ## Installing 🔩
 
