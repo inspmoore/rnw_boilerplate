@@ -1,5 +1,10 @@
 import React from "react";
 import { View, Text, Platform, StyleSheet } from "react-native";
+import styled from 'styled-components';
+
+const Test = styled(Text)`
+  color: red;
+`;
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -15,6 +20,7 @@ const HomeScreen = () => {
       <Text style={styles.welcome}>
         Welcome to React Native Web universal app!
       </Text>
+      <Test>Does this work? SERIOUS???? :D:D :P:P:P OMG OMG OMG OMG</Test>
       <Text style={styles.instructions}>
         This component is shared between web and react environment. To see how
         it works, just edit the HomeScreen.js
