@@ -6,7 +6,7 @@ const instructions = Platform.select({
   android:
     "Double tap R on your keyboard to reload,\n" +
     "Shake or press menu button for dev menu",
-  web: "Your browser will automatically refresh as soon as you save the file."
+  web: "Your browser will automatically refresh as soon as you save the fil sse."
 });
 
 const HomeScreen = () => {
